@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AWNoR03/////AAABGcLvdAcjxEminKg8P42zlnEvXR63rprGnKSn46BnrEBui20UaKrI7Y+VQrJkn9Jg/jc22yqpP5RPet+DPqKjIVDlDeFtuYBGuyG9FNCgdAA0OIuY37WNpIqNdbHTF/fAvEZVaIygXMTVG5B9Z0lH69IK3kNMvKMpQjzOTg13kL+afnUjeVBLplbvEZ03EFi2pTLWiBobe2pRa7qkma+qablNjkkz7PFnnS0dvL8OMcclCxhiBJO8GlQHL6JZNubiqfQvQMIetadL5iLspQU2i3FhvW81S71jMdrSjdLoWMSxDSkfL4jkSlGMIQfn/HQkmfc+u3PUFcriQMjk6v59sclBSeZg/iT1dT9M/1kt5i88
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -43,8 +43,10 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   databaseLoad:
-    dataSetsToLoad: []
-    dataSetsToActivate: []
+    dataSetsToLoad:
+    - target_images
+    dataSetsToActivate:
+    - target_images
   videoBackground:
     clippingMode: 0
     matteShader: {fileID: 4800000, guid: f84e93cca971cda47a225f4c6a4156c9, type: 3}
